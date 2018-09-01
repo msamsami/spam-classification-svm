@@ -1,5 +1,5 @@
 # spam-classification-svm
-Spam Classification System using SVM
+Spam Email Classification System using SVM
 
 Many email services today provide spam filters that are able to classify emails into spam and non-spam email with high accuracy. In this project, I have used support vector machines (SVMs) to build a spam filter. We will be training a classifier to classify whether a given email, x, is spam (y = 1) or non-spam (y = 0). In particular, we need to convert each email into a feature vector x (n-dimensional). The dataset included for this project is based on a a subset of the SpamAssassin Public Corpus. For the purpose of this project, we will only be using the body of the email (excluding the email headers).
 
